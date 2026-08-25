@@ -4,7 +4,7 @@ A cybersecurity threat modelling and generalisation gap analysis for a
 CT forgery detector, evaluated under two zero-day protocols: Leave-One-
 Domain-Out (LODO) and category-holdout (true zero-day).
 
-## Pipeline (in order)
+## Pipeline
 1. `01_data_extraction/` — DICOM loading, HU conversion, patch extraction
 2. `02_patch_selection/` — fixed 10,000-patch authentic pool selection
 3. `03_attack_generation/` — 11 tampering techniques across 6 categories
