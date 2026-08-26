@@ -1,0 +1,472 @@
+{
+  "budget_per_attack": 3000,
+  "sampling_note": "Authentic patches sampled with replacement from the 10,000-patch manifest to match the intended per-attack tampered budget without capping.",
+  "folds": [
+    {
+      "held_out": "gaussian",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9818936606807864,
+      "seen_auc": 0.9837542039559939,
+      "seen_ci": [
+        0.9804707943141892,
+        0.9867493509844938
+      ],
+      "seen_accuracy": 0.9643333333333334,
+      "seen_precision": 0.9929750614682121,
+      "seen_recall": 0.9357828533598146,
+      "seen_f1": 0.9635310156782549,
+      "seen_fnr": 0.06421714664018537,
+      "seen_fpr": 0.00671366230278617,
+      "seen_specificity": 0.9932863376972139,
+      "seen_confusion": {
+        "tn": 2959,
+        "fp": 20,
+        "fn": 194,
+        "tp": 2827
+      },
+      "zeroday_auc": 0.9982976299999999,
+      "zeroday_ci": [
+        0.9977409806860381,
+        0.9988033092508364
+      ],
+      "zeroday_accuracy": 0.99225,
+      "zeroday_precision": 0.992496248124062,
+      "zeroday_recall": 0.992,
+      "zeroday_f1": 0.9922480620155039,
+      "zeroday_fnr": 0.008,
+      "zeroday_fpr": 0.0075,
+      "zeroday_specificity": 0.9925,
+      "zeroday_confusion": {
+        "tn": 9925,
+        "fp": 75,
+        "fn": 80,
+        "tp": 9920
+      },
+      "gap": -0.014543426044006047
+    },
+    {
+      "held_out": "elliptical",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.981158280270067,
+      "seen_auc": 0.9835096364166289,
+      "seen_ci": [
+        0.9801953109836695,
+        0.9865545712618374
+      ],
+      "seen_accuracy": 0.9585,
+      "seen_precision": 0.9935897435897436,
+      "seen_recall": 0.9235352532274081,
+      "seen_f1": 0.957282552753474,
+      "seen_fnr": 0.07646474677259185,
+      "seen_fpr": 0.006042296072507553,
+      "seen_specificity": 0.9939577039274925,
+      "seen_confusion": {
+        "tn": 2961,
+        "fp": 18,
+        "fn": 231,
+        "tp": 2790
+      },
+      "zeroday_auc": 0.99877897,
+      "zeroday_ci": [
+        0.9983631462859761,
+        0.9991206970777623
+      ],
+      "zeroday_accuracy": 0.99085,
+      "zeroday_precision": 0.9916858659721527,
+      "zeroday_recall": 0.99,
+      "zeroday_f1": 0.990842215883501,
+      "zeroday_fnr": 0.01,
+      "zeroday_fpr": 0.0083,
+      "zeroday_specificity": 0.9917,
+      "zeroday_confusion": {
+        "tn": 9917,
+        "fp": 83,
+        "fn": 100,
+        "tp": 9900
+      },
+      "gap": -0.015269333583371125
+    },
+    {
+      "held_out": "copymove",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9913814793937896,
+      "seen_auc": 0.9899462851457498,
+      "seen_ci": [
+        0.9874771433617848,
+        0.9922345356911794
+      ],
+      "seen_accuracy": 0.9748333333333333,
+      "seen_precision": 0.9904306220095693,
+      "seen_recall": 0.9592850049652433,
+      "seen_f1": 0.9746090465781067,
+      "seen_fnr": 0.0407149950347567,
+      "seen_fpr": 0.009399127223900638,
+      "seen_specificity": 0.9906008727760993,
+      "seen_confusion": {
+        "tn": 2951,
+        "fp": 28,
+        "fn": 123,
+        "tp": 2898
+      },
+      "zeroday_auc": 0.91024553,
+      "zeroday_ci": [
+        0.9059333940075462,
+        0.914949455521963
+      ],
+      "zeroday_accuracy": 0.8501,
+      "zeroday_precision": 0.9880122665179816,
+      "zeroday_recall": 0.7088,
+      "zeroday_f1": 0.8254337952719226,
+      "zeroday_fnr": 0.2912,
+      "zeroday_fpr": 0.0086,
+      "zeroday_specificity": 0.9914,
+      "zeroday_confusion": {
+        "tn": 9914,
+        "fp": 86,
+        "fn": 2912,
+        "tp": 7088
+      },
+      "gap": 0.07970075514574981
+    },
+    {
+      "held_out": "frequency",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9844617686649038,
+      "seen_auc": 0.9837730937704836,
+      "seen_ci": [
+        0.980590684039384,
+        0.9867373525248301
+      ],
+      "seen_accuracy": 0.9633333333333334,
+      "seen_precision": 0.9878091257401602,
+      "seen_recall": 0.9387619993379676,
+      "seen_f1": 0.9626612355736592,
+      "seen_fnr": 0.06123800066203244,
+      "seen_fpr": 0.011748909029875798,
+      "seen_specificity": 0.9882510909701242,
+      "seen_confusion": {
+        "tn": 2944,
+        "fp": 35,
+        "fn": 185,
+        "tp": 2836
+      },
+      "zeroday_auc": 0.56303933,
+      "zeroday_ci": [
+        0.5549491750214837,
+        0.5707986754580138
+      ],
+      "zeroday_accuracy": 0.5016,
+      "zeroday_precision": 0.5784313725490197,
+      "zeroday_recall": 0.0118,
+      "zeroday_f1": 0.023128185025480204,
+      "zeroday_fnr": 0.9882,
+      "zeroday_fpr": 0.0086,
+      "zeroday_specificity": 0.9914,
+      "zeroday_confusion": {
+        "tn": 9914,
+        "fp": 86,
+        "fn": 9882,
+        "tp": 118
+      },
+      "gap": 0.42073376377048366
+    },
+    {
+      "held_out": "texture",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9865826693386488,
+      "seen_auc": 0.9861357650969341,
+      "seen_ci": [
+        0.9831683698936085,
+        0.9887672940584683
+      ],
+      "seen_accuracy": 0.9665,
+      "seen_precision": 0.9792658055744392,
+      "seen_recall": 0.9536577292287322,
+      "seen_f1": 0.9662921348314607,
+      "seen_fnr": 0.04634227077126779,
+      "seen_fpr": 0.020476670023497817,
+      "seen_specificity": 0.9795233299765022,
+      "seen_confusion": {
+        "tn": 2918,
+        "fp": 61,
+        "fn": 140,
+        "tp": 2881
+      },
+      "zeroday_auc": 0.97518372,
+      "zeroday_ci": [
+        0.972837645618974,
+        0.9771549826100328
+      ],
+      "zeroday_accuracy": 0.95185,
+      "zeroday_precision": 0.9833137233928763,
+      "zeroday_recall": 0.9193,
+      "zeroday_f1": 0.9502299860457905,
+      "zeroday_fnr": 0.0807,
+      "zeroday_fpr": 0.0156,
+      "zeroday_specificity": 0.9844,
+      "zeroday_confusion": {
+        "tn": 9844,
+        "fp": 156,
+        "fn": 807,
+        "tp": 9193
+      },
+      "gap": 0.010952045096934149
+    },
+    {
+      "held_out": "poisson",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9886634502710805,
+      "seen_auc": 0.9893983138507121,
+      "seen_ci": [
+        0.9866874354624381,
+        0.9916566318751678
+      ],
+      "seen_accuracy": 0.9735,
+      "seen_precision": 0.9904043865661412,
+      "seen_recall": 0.9566368752068851,
+      "seen_f1": 0.9732278161306618,
+      "seen_fnr": 0.04336312479311486,
+      "seen_fpr": 0.009399127223900638,
+      "seen_specificity": 0.9906008727760993,
+      "seen_confusion": {
+        "tn": 2951,
+        "fp": 28,
+        "fn": 131,
+        "tp": 2890
+      },
+      "zeroday_auc": 0.90403281,
+      "zeroday_ci": [
+        0.8988416538741737,
+        0.9087207867279739
+      ],
+      "zeroday_accuracy": 0.90415,
+      "zeroday_precision": 0.9868690519214552,
+      "zeroday_recall": 0.8192,
+      "zeroday_f1": 0.8952516255942298,
+      "zeroday_fnr": 0.1808,
+      "zeroday_fpr": 0.0109,
+      "zeroday_specificity": 0.9891,
+      "zeroday_confusion": {
+        "tn": 9891,
+        "fp": 109,
+        "fn": 1808,
+        "tp": 8192
+      },
+      "gap": 0.08536550385071207
+    },
+    {
+      "held_out": "contrast",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9845967977111522,
+      "seen_auc": 0.9835065807113438,
+      "seen_ci": [
+        0.9803089391723252,
+        0.98626362576793
+      ],
+      "seen_accuracy": 0.9641666666666666,
+      "seen_precision": 0.9864771151178918,
+      "seen_recall": 0.9417411453161205,
+      "seen_f1": 0.9635901778154107,
+      "seen_fnr": 0.05825885468387951,
+      "seen_fpr": 0.013091641490433032,
+      "seen_specificity": 0.9869083585095669,
+      "seen_confusion": {
+        "tn": 2940,
+        "fp": 39,
+        "fn": 176,
+        "tp": 2845
+      },
+      "zeroday_auc": 0.998155655,
+      "zeroday_ci": [
+        0.9977902842805406,
+        0.9985073353418343
+      ],
+      "zeroday_accuracy": 0.98625,
+      "zeroday_precision": 0.9917079583375468,
+      "zeroday_recall": 0.9807,
+      "zeroday_f1": 0.9861732616018904,
+      "zeroday_fnr": 0.0193,
+      "zeroday_fpr": 0.0082,
+      "zeroday_specificity": 0.9918,
+      "zeroday_confusion": {
+        "tn": 9918,
+        "fp": 82,
+        "fn": 193,
+        "tp": 9807
+      },
+      "gap": -0.01464907428865625
+    },
+    {
+      "held_out": "smoothing",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9844243717315191,
+      "seen_auc": 0.9825734794338256,
+      "seen_ci": [
+        0.9793615744123693,
+        0.9857062835484952
+      ],
+      "seen_accuracy": 0.9618333333333333,
+      "seen_precision": 0.9853963838664812,
+      "seen_recall": 0.938099966898378,
+      "seen_f1": 0.9611666949296253,
+      "seen_fnr": 0.06190003310162198,
+      "seen_fpr": 0.014098690835850957,
+      "seen_specificity": 0.9859013091641491,
+      "seen_confusion": {
+        "tn": 2937,
+        "fp": 42,
+        "fn": 187,
+        "tp": 2834
+      },
+      "zeroday_auc": 0.992730705,
+      "zeroday_ci": [
+        0.9916741888025774,
+        0.9938591012635576
+      ],
+      "zeroday_accuracy": 0.98075,
+      "zeroday_precision": 0.9874277603163337,
+      "zeroday_recall": 0.9739,
+      "zeroday_f1": 0.9806172280118813,
+      "zeroday_fnr": 0.0261,
+      "zeroday_fpr": 0.0124,
+      "zeroday_specificity": 0.9876,
+      "zeroday_confusion": {
+        "tn": 9876,
+        "fp": 124,
+        "fn": 261,
+        "tp": 9739
+      },
+      "gap": -0.010157225566174488
+    },
+    {
+      "held_out": "sharpening",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9861913629420728,
+      "seen_auc": 0.9849958203507526,
+      "seen_ci": [
+        0.9821278210635979,
+        0.9877195874251304
+      ],
+      "seen_accuracy": 0.9596666666666667,
+      "seen_precision": 0.9789727680110307,
+      "seen_recall": 0.9400860642171467,
+      "seen_f1": 0.9591354272205336,
+      "seen_fnr": 0.05991393578285336,
+      "seen_fpr": 0.020476670023497817,
+      "seen_specificity": 0.9795233299765022,
+      "seen_confusion": {
+        "tn": 2918,
+        "fp": 61,
+        "fn": 181,
+        "tp": 2840
+      },
+      "zeroday_auc": 0.954448745,
+      "zeroday_ci": [
+        0.9516882815756224,
+        0.9573652552172535
+      ],
+      "zeroday_accuracy": 0.89995,
+      "zeroday_precision": 0.9786953919808498,
+      "zeroday_recall": 0.8177,
+      "zeroday_f1": 0.8909833832743121,
+      "zeroday_fnr": 0.1823,
+      "zeroday_fpr": 0.0178,
+      "zeroday_specificity": 0.9822,
+      "zeroday_confusion": {
+        "tn": 9822,
+        "fp": 178,
+        "fn": 1823,
+        "tp": 8177
+      },
+      "gap": 0.030547075350752628
+    },
+    {
+      "held_out": "rotation",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9868346762989719,
+      "seen_auc": 0.9882147758869585,
+      "seen_ci": [
+        0.9855827729175877,
+        0.9906036973340073
+      ],
+      "seen_accuracy": 0.9698333333333333,
+      "seen_precision": 0.9923584577978465,
+      "seen_recall": 0.9472811671087533,
+      "seen_f1": 0.9692960135708227,
+      "seen_fnr": 0.05271883289124669,
+      "seen_fpr": 0.007372654155495978,
+      "seen_specificity": 0.9926273458445041,
+      "seen_confusion": {
+        "tn": 2962,
+        "fp": 22,
+        "fn": 159,
+        "tp": 2857
+      },
+      "zeroday_auc": 0.8768967270781862,
+      "zeroday_ci": [
+        0.8717185317409043,
+        0.8820266927754065
+      ],
+      "zeroday_accuracy": 0.8067226890756303,
+      "zeroday_precision": 0.9872854418308964,
+      "zeroday_recall": 0.6214485794317727,
+      "zeroday_f1": 0.7627701375245579,
+      "zeroday_fnr": 0.37855142056822727,
+      "zeroday_fpr": 0.008003201280512205,
+      "zeroday_specificity": 0.9919967987194878,
+      "zeroday_confusion": {
+        "tn": 9916,
+        "fp": 80,
+        "fn": 3784,
+        "tp": 6212
+      },
+      "gap": 0.11131804880877227
+    },
+    {
+      "held_out": "cyclegan",
+      "budget_per_attack": 3000,
+      "best_val_auc": 0.9853648089466458,
+      "seen_auc": 0.9827964475748165,
+      "seen_ci": [
+        0.9796240546304671,
+        0.9859212379976139
+      ],
+      "seen_accuracy": 0.9585,
+      "seen_precision": 0.9876673713883016,
+      "seen_recall": 0.929068611203182,
+      "seen_f1": 0.9574722459436379,
+      "seen_fnr": 0.07093138879681803,
+      "seen_fpr": 0.011733154542406973,
+      "seen_specificity": 0.988266845457593,
+      "seen_confusion": {
+        "tn": 2948,
+        "fp": 35,
+        "fn": 214,
+        "tp": 2803
+      },
+      "zeroday_auc": 0.8919102205303073,
+      "zeroday_ci": [
+        0.88742385353997,
+        0.8964115337609881
+      ],
+      "zeroday_accuracy": 0.545086068855084,
+      "zeroday_precision": 0.9033124440465533,
+      "zeroday_recall": 0.10098078462770216,
+      "zeroday_f1": 0.18165451435772798,
+      "zeroday_fnr": 0.8990192153722978,
+      "zeroday_fpr": 0.010808646917534028,
+      "zeroday_specificity": 0.989191353082466,
+      "zeroday_confusion": {
+        "tn": 9884,
+        "fp": 108,
+        "fn": 8983,
+        "tp": 1009
+      },
+      "gap": 0.09088622704450922
+    }
+  ],
+  "mean_gap": 0.07044403268960962,
+  "std_gap": 0.12005222886000522,
+  "min_gap": -0.015269333583371125,
+  "max_gap": 0.42073376377048366
+}
