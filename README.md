@@ -16,7 +16,7 @@ data, or from not having *varied enough* training data?
 ## System Architecture
 
 The full pipeline, from raw CT scans to a measured generalisation gap:
-![System Architecture](architecture_diagram.png)
+![System Architecture](architecture_diagram.png.png)
 
 
 ## Dataset
