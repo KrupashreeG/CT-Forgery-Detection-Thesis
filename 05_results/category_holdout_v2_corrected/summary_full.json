@@ -1,0 +1,212 @@
+{
+  "experiment": "category_holdout_corrected",
+  "trained_on_category": "Local pixel injection",
+  "trained_on_attacks": [
+    "gaussian",
+    "elliptical",
+    "contrast",
+    "smoothing",
+    "sharpening",
+    "texture"
+  ],
+  "budget_per_attack": 5000,
+  "sampling_note": "Authentic patches sampled with replacement to match intended tampered budget.",
+  "best_val_auc": 0.9985146109460679,
+  "seen_metrics": {
+    "auc": 0.9985002985732832,
+    "accuracy": 0.9945,
+    "precision": 0.9959239130434783,
+    "recall": 0.9928885878767355,
+    "f1": 0.9944039342038324,
+    "fnr": 0.007111412123264477,
+    "fpr": 0.003938299967180834,
+    "specificity": 0.9960617000328191,
+    "tn": 3035,
+    "fp": 12,
+    "fn": 21,
+    "tp": 2932
+  },
+  "seen_ci": [
+    0.9974592369140064,
+    0.9992958974145792
+  ],
+  "results": [
+    {
+      "held_out_attack": "copymove",
+      "category": "Spatial rearrangement",
+      "seen_auc": 0.9985002985732832,
+      "seen_ci": [
+        0.9974592369140064,
+        0.9992958974145792
+      ],
+      "seen_accuracy": 0.9945,
+      "seen_precision": 0.9959239130434783,
+      "seen_recall": 0.9928885878767355,
+      "seen_f1": 0.9944039342038324,
+      "seen_fnr": 0.007111412123264477,
+      "seen_fpr": 0.003938299967180834,
+      "seen_specificity": 0.9960617000328191,
+      "zeroday_auc": 0.7858930450000001,
+      "zeroday_ci": [
+        0.7797912392813813,
+        0.7922375096055522
+      ],
+      "zeroday_accuracy": 0.72315,
+      "zeroday_precision": 0.9892567419425564,
+      "zeroday_recall": 0.4512,
+      "zeroday_f1": 0.6197376553808117,
+      "zeroday_fnr": 0.5488,
+      "zeroday_fpr": 0.0049,
+      "zeroday_specificity": 0.9951,
+      "gap": 0.21260725357328303,
+      "confusion_matrix": {
+        "tn": 9951,
+        "fp": 49,
+        "fn": 5488,
+        "tp": 4512
+      }
+    },
+    {
+      "held_out_attack": "rotation",
+      "category": "Geometric transform",
+      "seen_auc": 0.9985002985732832,
+      "seen_ci": [
+        0.9974592369140064,
+        0.9992958974145792
+      ],
+      "seen_accuracy": 0.9945,
+      "seen_precision": 0.9959239130434783,
+      "seen_recall": 0.9928885878767355,
+      "seen_f1": 0.9944039342038324,
+      "seen_fnr": 0.007111412123264477,
+      "seen_fpr": 0.003938299967180834,
+      "seen_specificity": 0.9960617000328191,
+      "zeroday_auc": 0.6503004563169805,
+      "zeroday_ci": [
+        0.6424205822641492,
+        0.6580901255872575
+      ],
+      "zeroday_accuracy": 0.5748799519807923,
+      "zeroday_precision": 0.9663551401869159,
+      "zeroday_recall": 0.15516206482593037,
+      "zeroday_f1": 0.2673907421773985,
+      "zeroday_fnr": 0.8448379351740696,
+      "zeroday_fpr": 0.005402160864345739,
+      "zeroday_specificity": 0.9945978391356542,
+      "gap": 0.3481998422563026,
+      "confusion_matrix": {
+        "tn": 9942,
+        "fp": 54,
+        "fn": 8445,
+        "tp": 1551
+      }
+    },
+    {
+      "held_out_attack": "poisson",
+      "category": "Gradient-domain blending",
+      "seen_auc": 0.9985002985732832,
+      "seen_ci": [
+        0.9974592369140064,
+        0.9992958974145792
+      ],
+      "seen_accuracy": 0.9945,
+      "seen_precision": 0.9959239130434783,
+      "seen_recall": 0.9928885878767355,
+      "seen_f1": 0.9944039342038324,
+      "seen_fnr": 0.007111412123264477,
+      "seen_fpr": 0.003938299967180834,
+      "seen_specificity": 0.9960617000328191,
+      "zeroday_auc": 0.94710743,
+      "zeroday_ci": [
+        0.9438550957221431,
+        0.9500736376520793
+      ],
+      "zeroday_accuracy": 0.90925,
+      "zeroday_precision": 0.993488484263837,
+      "zeroday_recall": 0.8239,
+      "zeroday_f1": 0.9007817197835237,
+      "zeroday_fnr": 0.1761,
+      "zeroday_fpr": 0.0054,
+      "zeroday_specificity": 0.9946,
+      "gap": 0.05139286857328318,
+      "confusion_matrix": {
+        "tn": 9946,
+        "fp": 54,
+        "fn": 1761,
+        "tp": 8239
+      }
+    },
+    {
+      "held_out_attack": "frequency",
+      "category": "Frequency-domain shift",
+      "seen_auc": 0.9985002985732832,
+      "seen_ci": [
+        0.9974592369140064,
+        0.9992958974145792
+      ],
+      "seen_accuracy": 0.9945,
+      "seen_precision": 0.9959239130434783,
+      "seen_recall": 0.9928885878767355,
+      "seen_f1": 0.9944039342038324,
+      "seen_fnr": 0.007111412123264477,
+      "seen_fpr": 0.003938299967180834,
+      "seen_specificity": 0.9960617000328191,
+      "zeroday_auc": 0.6739087899999999,
+      "zeroday_ci": [
+        0.6659714611954001,
+        0.6809440340187563
+      ],
+      "zeroday_accuracy": 0.50135,
+      "zeroday_precision": 0.6153846153846154,
+      "zeroday_recall": 0.0072,
+      "zeroday_f1": 0.014233468419491944,
+      "zeroday_fnr": 0.9928,
+      "zeroday_fpr": 0.0045,
+      "zeroday_specificity": 0.9955,
+      "gap": 0.3245915085732832,
+      "confusion_matrix": {
+        "tn": 9955,
+        "fp": 45,
+        "fn": 9928,
+        "tp": 72
+      }
+    },
+    {
+      "held_out_attack": "cyclegan",
+      "category": "Learned/generative",
+      "seen_auc": 0.9985002985732832,
+      "seen_ci": [
+        0.9974592369140064,
+        0.9992958974145792
+      ],
+      "seen_accuracy": 0.9945,
+      "seen_precision": 0.9959239130434783,
+      "seen_recall": 0.9928885878767355,
+      "seen_f1": 0.9944039342038324,
+      "seen_fnr": 0.007111412123264477,
+      "seen_fpr": 0.003938299967180834,
+      "seen_specificity": 0.9960617000328191,
+      "zeroday_auc": 0.9157016866495598,
+      "zeroday_ci": [
+        0.9117435242317096,
+        0.9194982715796642
+      ],
+      "zeroday_accuracy": 0.5302241793434748,
+      "zeroday_precision": 0.9402332361516035,
+      "zeroday_recall": 0.06455164131305044,
+      "zeroday_f1": 0.12080914028844353,
+      "zeroday_fnr": 0.9354483586869495,
+      "zeroday_fpr": 0.004103282626100881,
+      "zeroday_specificity": 0.9958967173738991,
+      "gap": 0.0827986119237234,
+      "confusion_matrix": {
+        "tn": 9951,
+        "fp": 41,
+        "fn": 9347,
+        "tp": 645
+      }
+    }
+  ],
+  "mean_gap": 0.2039180169799751,
+  "std_gap": 0.12115169886438007
+}
